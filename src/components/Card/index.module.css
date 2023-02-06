@@ -1,0 +1,31 @@
+.card {
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 3px #8181817d;
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.07);
+}
+.card > img {
+  object-fit: fill;
+  height: 330px;
+  width: 100%;
+}
+.cardInfo {
+  margin-top: -9px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.cardInfo > h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.cardInfo > h4 {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
