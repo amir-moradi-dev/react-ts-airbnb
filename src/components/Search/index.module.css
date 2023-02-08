@@ -1,38 +1,41 @@
 .searchContainer {
-    position: absolute;
-    top: 35px;
-    left: 25%;
-    width: 100vw;
+  position: absolute;
+  height: 555px;
+  background-color: white;
+  top: 35px;
+  left: 25%;
+  width: 579px;
+  border-radius: 18px;
 }
-.searchContainer>h2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 560px;
-    padding: 10px;
-    background-color: white;
-    position: absolute;
-    left: 0;
-    top: 380px;
+.searchContainer > h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 560px;
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  top: 380px;
 }
-.searchContainer>input {
-    width: 539px;
-    padding: 20px;
-    position: absolute;
-    left: 0;
-    height: 30px;
-    top: 420px;
-    border: none;
+.searchContainer > input {
+  width: 539px;
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  height: 30px;
+  top: 420px;
+  border: none;
 }
-.searchContainer>input:focus {
-    outline: none;
+.searchContainer > input:focus {
+  outline: none;
 }
-.searchContainer>button {
-    position: absolute !important;
-    left: 0 !important;
-    top: 480px !important;
-    text-transform: inherit !important;
-    background-color: lightcoral !important;
-    color: white !important;
-    width: 579px !important;
+.searchContainer > button {
+  position: absolute !important;
+  left: 0 !important;
+  top: 480px !important;
+  text-transform: inherit !important;
+  background-color: lightcoral !important;
+  color: white !important;
+  width: 579px !important;
 }

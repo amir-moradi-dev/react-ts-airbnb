@@ -1,44 +1,44 @@
 .bannerContainer {
-    height: 66vh;
-    position: relative;
-    background: url("/public/assets/images/airbnb-banner.jpg") center center;
+  height: 66vh;
+  position: relative;
+  background: url("/public/assets/images/airbnb-banner.jpg") center center;
 }
 .bannerInfo {
-    background-color: #282828;
-    color: white;
-    padding-top: 20vh;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 40px;
-    width: 300px;
-    border-bottom-right-radius: 33px;
+  background-color: #282828;
+  color: white;
+  padding-top: 20vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 300px;
+  border-bottom-right-radius: 33px;
 }
-.bannerInfo>h1 {
-    margin-bottom: 12px;
+.bannerInfo > h1 {
+  margin-bottom: 12px;
 }
-.bannerInfo>h5{
-    margin-bottom: 12px;
+.bannerInfo > h5 {
+  margin-bottom: 12px;
 }
-.bannerInfo>button {
-    background-color: lightcoral;
-    color: white;
-    text-transform: inherit;
-    border-color: lightcoral;
+.bannerInfo > button {
+  background-color: lightcoral;
+  color: white;
+  text-transform: inherit;
+  border-color: lightcoral;
 }
 
 .bannerSearchButton {
-    background-color: white !important;
-    font-weight: 900 !important;
-    text-transform: inherit !important;
-    color: lightcoral !important;
-    border-left: none !important;
-    border-left: none !important;
-    border-right: none !important;
-    border-color: lightcoral !important;
-    border-width: 1px;
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: lightcoral !important;
+  border-left: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-color: lightcoral !important;
+  border-width: 1px;
 }
 
-.bannerSearch{
-    display: flex;
-    flex-direction: column;
+.bannerSearch {
+  display: flex;
+  flex-direction: column;
 }

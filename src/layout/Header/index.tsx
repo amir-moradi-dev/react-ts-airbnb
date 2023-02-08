@@ -3,14 +3,15 @@ import SearchIcon from "@mui/icons-material/Search";
 import LanguageIcon from "@mui/icons-material/Language";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Avatar } from "@mui/material";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <>
       <header className={classes.headerContainer}>
-        <div className={classes.headerLogo}>
+        <Link to={"/"} className={classes.headerLogo}>
           <img src={"/assets/images/Airbnb_Logo.png"} alt={"header_logo"} />
-        </div>
+        </Link>
 
         <div className={classes.headerSearch}>
           <input type={"text"} />
