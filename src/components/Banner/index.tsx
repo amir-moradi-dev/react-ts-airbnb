@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 function Banner() {
   const navigate = useNavigate();
-  const [showSearch, setShowSearch] = useState(true);
+  const [showSearch, setShowSearch] = useState(false);
 
   return (
     <>
